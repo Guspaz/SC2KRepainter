@@ -1,8 +1,8 @@
 # SC2KRepainter
-Fixes palette animation in SimCity 2000 on modern Windows
+Fixes palette animation in Win95 SimCity 2000 on modern Windows
 
 # Instructions
-Run SC2KRepainter.exe before or after you launch SimCity 2000 on modern Windows, like Windows 10, and the game's animations should start working. You must run the game with the "Reduced color mode" compatibility setting set to "8-bit (256) color". This application targets .NET 4.5, which should be built-in to Windows 8 and newer.
+Run SC2KRepainter.exe before or after you launch Win95 SimCity 2000 on modern Windows, like Windows 10, and the game's animations should start working. You must run the game with the "Reduced color mode" compatibility setting set to "8-bit (256) color". This application targets .NET 4.5, which should be built-in to Windows 8 and newer.
 
 # Side Effects
 As this fixes palette-based animations in SC2K by forcing the game to repaint its entire window instead of just the sections the game wants, it has side effects. One example is that the price of things as you click and drag will disappear right after changing.
